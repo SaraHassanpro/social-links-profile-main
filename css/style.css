@@ -1,0 +1,64 @@
+.container-fluid {
+    height: 800px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.row {
+    background-color: hsl(0, 0%, 8%);
+    height: 100%;
+}
+
+.profile {
+    background-color: hsl(0, 0%, 12%);
+    margin: 10% auto 10% auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+}
+
+h6 {
+    color: hsl(75, 94%, 57%);
+}
+
+.profile p {
+    font-family: "Inter", sans-serif;
+    padding-top: 20px;
+}
+
+.profile .list a {
+    background-color: hsl(0, 0%, 20%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.profile .list a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%) !important;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:770px) {
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+    .row{
+        padding: 25% 20px 10% 20px;
+    }
+    .profile .list a{
+        width:90%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}
+
+@media only screen and (min-width:770px) and (max-width:990px) {
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+}
